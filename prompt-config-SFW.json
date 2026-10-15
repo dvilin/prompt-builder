@@ -1,0 +1,3324 @@
+{
+  "version": 3,
+  "sections": {
+    "positive": true,
+    "negative": false
+  },
+  "blocks": [
+    {
+      "id": "initial",
+      "label": "Начальные теги",
+      "open": false,
+      "enabled": true,
+      "polarity": "positive",
+      "rows": [
+        {
+          "id": "quality",
+          "label": "Качество",
+          "options": [
+            [
+              "Высокое",
+              "masterpiece, best quality"
+            ],
+            [
+              "Детализация",
+              "highly detailed"
+            ],
+            [
+              "Шедевр",
+              "masterpiece"
+            ],
+            [
+              "Лучшее качество",
+              "best quality"
+            ],
+            [
+              "Отличное качество",
+              "amazing quality"
+            ],
+            [
+              "Ультрадетализация",
+              "ultra-detailed"
+            ]
+          ],
+          "selected": "masterpiece, best quality",
+          "enabled": true,
+          "weight": null
+        },
+        {
+          "id": "subject",
+          "label": "Персонаж",
+          "options": [
+            [
+              "Портрет",
+              "portrait"
+            ],
+            [
+              "Женщина",
+              "woman"
+            ],
+            [
+              "Мужчина",
+              "man"
+            ],
+            [
+              "Взрослая женщина",
+              "adult woman"
+            ],
+            [
+              "Зрелая женщина",
+              "mature female"
+            ],
+            [
+              "Взрослый мужчина",
+              "adult man"
+            ],
+            [
+              "Один персонаж",
+              "solo"
+            ],
+            [
+              "Девушка",
+              "young woman"
+            ],
+            [
+              "Парень",
+              "boy"
+            ],
+            [
+              "Девочка",
+              "girl"
+            ],
+            [
+              "Маленькая девочка",
+              "little girl"
+            ],
+            [
+              "Маленький мальчик",
+              "little boy"
+            ]
+          ],
+          "selected": "girl",
+          "enabled": false,
+          "weight": null
+        },
+        {
+          "id": "id_mv9vq1bw_pkochpu",
+          "label": "score_9",
+          "options": [
+            [
+              "score_9",
+              "score_9"
+            ]
+          ],
+          "selected": "score_9",
+          "enabled": true,
+          "weight": null
+        },
+        {
+          "id": "id_mv9vq1bw_gluef5u",
+          "label": "score_8_up",
+          "options": [
+            [
+              "score_8_up",
+              "score_8_up"
+            ]
+          ],
+          "selected": "score_8_up",
+          "enabled": true,
+          "weight": null
+        },
+        {
+          "id": "id_mv9vq1bw_3skxe6f",
+          "label": "score_7_up",
+          "options": [
+            [
+              "score_7_up",
+              "score_7_up"
+            ]
+          ],
+          "selected": "score_7_up",
+          "enabled": true,
+          "weight": null
+        },
+        {
+          "id": "id_mv9vq1bw_tk0ksk2",
+          "label": "HDR",
+          "options": [
+            [
+              "HDR",
+              "HDR"
+            ]
+          ],
+          "selected": "HDR",
+          "enabled": true,
+          "weight": null
+        },
+        {
+          "id": "id_mv9vq1bw_guza4nj",
+          "label": "8K",
+          "options": [
+            [
+              "8K",
+              "8K"
+            ]
+          ],
+          "selected": "8K",
+          "enabled": true,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "id": "style",
+      "label": "Стиль",
+      "open": false,
+      "enabled": true,
+      "polarity": "positive",
+      "rows": [
+        {
+          "id": "style-type",
+          "label": "Стиль",
+          "options": [
+            [
+              "Реализм",
+              "realistic"
+            ],
+            [
+              "Аниме",
+              "anime style"
+            ],
+            [
+              "Иллюстрация",
+              "illustration"
+            ],
+            [
+              "Фотореализм",
+              "photorealistic"
+            ],
+            [
+              "Необработанное фото",
+              "raw photo"
+            ],
+            [
+              "Фотография",
+              "source photograph"
+            ],
+            [
+              "Живопись",
+              "oil painting"
+            ],
+            [
+              "Акварель",
+              "watercolor"
+            ],
+            [
+              "Цифровая живопись",
+              "digital painting"
+            ],
+            [
+              "Векторная графика",
+              "vector art"
+            ],
+            [
+              "Комикс",
+              "comic book art"
+            ],
+            [
+              "Манга",
+              "manga style"
+            ],
+            [
+              "Пиксель-арт",
+              "pixel art"
+            ],
+            [
+              "3D-рендер",
+              "3d render"
+            ],
+            [
+              "Изометрия",
+              "isometric illustration"
+            ],
+            [
+              "Лайн-арт",
+              "line art"
+            ],
+            [
+              "Карандашный рисунок",
+              "pencil sketch"
+            ],
+            [
+              "Уголь",
+              "charcoal drawing"
+            ],
+            [
+              "Гуашь",
+              "gouache painting"
+            ],
+            [
+              "Импрессионизм",
+              "impressionist painting"
+            ],
+            [
+              "Ар-нуво",
+              "art nouveau"
+            ],
+            [
+              "Ар-деко",
+              "art deco"
+            ],
+            [
+              "Ретрофутуризм",
+              "retrofuturism"
+            ],
+            [
+              "Стимпанк",
+              "steampunk"
+            ],
+            [
+              "Соларпанк",
+              "solarpunk"
+            ],
+            [
+              "Тёмное фэнтези",
+              "dark fantasy art"
+            ],
+            [
+              "Концепт-арт",
+              "concept art"
+            ],
+            [
+              "Книжная иллюстрация",
+              "storybook illustration"
+            ],
+            [
+              "Плёночная фотография",
+              "analog film photography"
+            ],
+            [
+              "Уличная фотография",
+              "street photography"
+            ],
+            [
+              "Редакционная фотография",
+              "editorial photography"
+            ]
+          ],
+          "selected": "photorealistic",
+          "enabled": true,
+          "weight": null
+        },
+        {
+          "id": "color",
+          "label": "Цвет",
+          "options": [
+            [
+              "Плоский цвет",
+              "flat color"
+            ],
+            [
+              "Пастель",
+              "soft pastel colors"
+            ],
+            [
+              "Насыщенный",
+              "colorful"
+            ],
+            [
+              "Яркие цвета",
+              "vivid colors"
+            ],
+            [
+              "Пастельные цвета",
+              "pastel colors"
+            ],
+            [
+              "Приглушённые цвета",
+              "muted colors"
+            ],
+            [
+              "Монохром",
+              "monochrome"
+            ],
+            [
+              "Чёрно-белое",
+              "black and white"
+            ],
+            [
+              "Сепия",
+              "sepia tones"
+            ],
+            [
+              "Бирюзово-оранжевая палитра",
+              "teal and orange color grading"
+            ],
+            [
+              "Комплементарные цвета",
+              "complementary colors"
+            ],
+            [
+              "Аналоговая палитра",
+              "analogous color palette"
+            ],
+            [
+              "Ограниченная палитра",
+              "limited color palette"
+            ],
+            [
+              "Землистые тона",
+              "earth tones"
+            ],
+            [
+              "Неоновые цвета",
+              "neon color palette"
+            ],
+            [
+              "Холодная палитра",
+              "cool color palette"
+            ],
+            [
+              "Тёплая палитра",
+              "warm color palette"
+            ],
+            [
+              "Высокая насыщенность",
+              "high saturation"
+            ],
+            [
+              "Низкая насыщенность",
+              "desaturated colors"
+            ]
+          ],
+          "selected": "flat color",
+          "enabled": false,
+          "weight": null
+        },
+        {
+          "id": "id_mv9vq1bx_97969mq",
+          "label": "Настроение",
+          "options": [
+            [
+              "Кинематографическое",
+              "cinematic atmosphere"
+            ],
+            [
+              "Таинственное",
+              "mysterious atmosphere"
+            ],
+            [
+              "Спокойное",
+              "serene atmosphere"
+            ],
+            [
+              "Мрачное",
+              "dark atmosphere"
+            ],
+            [
+              "Драматичное",
+              "moody atmosphere"
+            ],
+            [
+              "Сказочное",
+              "dreamlike atmosphere"
+            ],
+            [
+              "Приключенческое",
+              "adventurous atmosphere"
+            ],
+            [
+              "Ностальгическое",
+              "nostalgic atmosphere"
+            ],
+            [
+              "Уютное",
+              "cozy atmosphere"
+            ],
+            [
+              "Меланхоличное",
+              "melancholic atmosphere"
+            ],
+            [
+              "Эпическое",
+              "epic atmosphere"
+            ],
+            [
+              "Футуристическое",
+              "futuristic atmosphere"
+            ],
+            [
+              "Волшебное",
+              "magical atmosphere"
+            ],
+            [
+              "Тревожное",
+              "tense atmosphere"
+            ],
+            [
+              "Жизнерадостное",
+              "cheerful atmosphere"
+            ]
+          ],
+          "selected": "cinematic atmosphere",
+          "enabled": false,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "id": "background",
+      "label": "Фон",
+      "open": false,
+      "enabled": true,
+      "polarity": "positive",
+      "rows": [
+        {
+          "id": "scene",
+          "label": "Место",
+          "options": [
+            [
+              "Студия",
+              "studio background"
+            ],
+            [
+              "Сад",
+              "garden"
+            ],
+            [
+              "Город",
+              "city street"
+            ],
+            [
+              "Белый диван",
+              "white sofa"
+            ],
+            [
+              "Спальня",
+              "bedroom"
+            ],
+            [
+              "Номер отеля",
+              "luxury hotel room"
+            ],
+            [
+              "Ванная",
+              "bathroom"
+            ],
+            [
+              "Пляж на закате",
+              "beach at sunset"
+            ],
+            [
+              "Ночной лес",
+              "forest at night"
+            ],
+            [
+              "Неоновый город",
+              "neon city"
+            ],
+            [
+              "Киберпанк-город",
+              "cyberpunk city"
+            ],
+            [
+              "Ночной балкон",
+              "balcony at night"
+            ],
+            [
+              "Крыша",
+              "rooftop"
+            ],
+            [
+              "Гардеробная",
+              "dressing room"
+            ],
+            [
+              "Бар",
+              "dimly lit bar"
+            ],
+            [
+              "Переулок",
+              "dark alley"
+            ],
+            [
+              "Уютное кафе",
+              "cozy cafe"
+            ],
+            [
+              "Библиотека",
+              "library"
+            ],
+            [
+              "Спальня/Отель",
+              "bedroom, luxury hotel room, messy bed, silk sheets"
+            ],
+            [
+              "Ванная/Душ",
+              "steamy bathroom, shower, bathtub"
+            ],
+            [
+              "Неоновый город",
+              "neon city, cyberpunk city, dark alley"
+            ],
+            [
+              "Студия",
+              "studio background, plain background"
+            ],
+            [
+              "Пляж/Природа",
+              "beach at sunset, forest at night"
+            ],
+            [
+              "Музей",
+              "art museum"
+            ],
+            [
+              "Книжный магазин",
+              "bookstore"
+            ],
+            [
+              "Железнодорожная станция",
+              "train station"
+            ],
+            [
+              "Метро",
+              "subway station"
+            ],
+            [
+              "Аэропорт",
+              "airport terminal"
+            ],
+            [
+              "Оранжерея",
+              "greenhouse"
+            ],
+            [
+              "Обсерватория",
+              "observatory"
+            ],
+            [
+              "Средневековый замок",
+              "medieval castle"
+            ],
+            [
+              "Японский сад",
+              "japanese garden"
+            ],
+            [
+              "Улица Токио",
+              "tokyo street"
+            ],
+            [
+              "Горная деревня",
+              "mountain village"
+            ],
+            [
+              "Пустыня",
+              "desert landscape"
+            ],
+            [
+              "Водопад",
+              "waterfall"
+            ],
+            [
+              "Космический корабль",
+              "spaceship interior"
+            ],
+            [
+              "Мастерская художника",
+              "artist studio"
+            ],
+            [
+              "Университет",
+              "university campus"
+            ],
+            [
+              "Крытый рынок",
+              "indoor market"
+            ],
+            [
+              "Лавандовое поле",
+              "lavender field"
+            ],
+            [
+              "Заснеженная деревня",
+              "snowy village"
+            ]
+          ],
+          "selected": "beach at sunset",
+          "enabled": true,
+          "weight": null
+        },
+        {
+          "id": "light",
+          "label": "Освещение",
+          "options": [
+            [
+              "Мягкое",
+              "soft lighting"
+            ],
+            [
+              "Кинематографическое",
+              "cinematic lighting"
+            ],
+            [
+              "Объёмное",
+              "volumetric lighting"
+            ],
+            [
+              "Кинематографическое",
+              "cinematic lighting, volumetric lighting"
+            ],
+            [
+              "Мягкое/Золотой час",
+              "soft lighting, golden hour"
+            ],
+            [
+              "Контровое/Неоновое",
+              "rim lighting, neon lighting"
+            ],
+            [
+              "Тусклый свет/Свечи",
+              "dimly lit, candlelight, dark atmosphere"
+            ]
+          ],
+          "selected": "soft lighting",
+          "enabled": false,
+          "weight": null
+        },
+        {
+          "id": "id_mv9vq1bx_btqt7vf",
+          "label": "Интерьер",
+          "options": [
+            [
+              "Элегантная комната",
+              "elegant room"
+            ],
+            [
+              "Готическая комната",
+              "gothic room"
+            ],
+            [
+              "Футуристическая комната",
+              "futuristic room"
+            ],
+            [
+              "Гостиная",
+              "living room"
+            ],
+            [
+              "Белый диван",
+              "white sofa"
+            ],
+            [
+              "Шторы",
+              "curtain background"
+            ],
+            [
+              "Простой фон",
+              "plain background"
+            ],
+            [
+              "Внутри помещения",
+              "indoor"
+            ]
+          ],
+          "selected": "elegant room",
+          "enabled": false,
+          "weight": null
+        },
+        {
+          "id": "id_mv9vq1bx_cm8dhel",
+          "label": "Окружение",
+          "options": [
+            [
+              "Океанские волны",
+              "ocean waves"
+            ],
+            [
+              "Природа",
+              "nature background"
+            ],
+            [
+              "Горы",
+              "mountain landscape"
+            ],
+            [
+              "Цветущие деревья",
+              "blossoming trees"
+            ],
+            [
+              "Осенние листья",
+              "autumn leaves"
+            ],
+            [
+              "Снегопад",
+              "snowfall"
+            ],
+            [
+              "Дождь",
+              "rain"
+            ],
+            [
+              "Туман",
+              "fog"
+            ],
+            [
+              "Северное сияние",
+              "aurora borealis"
+            ],
+            [
+              "Звёздное небо",
+              "starry sky"
+            ],
+            [
+              "Падающие листья",
+              "falling leaves"
+            ],
+            [
+              "Цветущая сакура",
+              "cherry blossoms"
+            ],
+            [
+              "Песчаные дюны",
+              "sand dunes"
+            ],
+            [
+              "Морские скалы",
+              "coastal cliffs"
+            ],
+            [
+              "Поле подсолнухов",
+              "sunflower field"
+            ],
+            [
+              "Грозовые облака",
+              "storm clouds"
+            ],
+            [
+              "Светлячки",
+              "fireflies"
+            ],
+            [
+              "Мокрый асфальт",
+              "wet pavement"
+            ],
+            [
+              "Лужи с отражениями",
+              "puddle reflections"
+            ]
+          ],
+          "selected": "ocean waves",
+          "enabled": false,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "id": "appearance",
+      "label": "Внешность",
+      "open": false,
+      "enabled": true,
+      "polarity": "positive",
+      "rows": [
+        {
+          "id": "eyes",
+          "label": "Глаза",
+          "options": [
+            [
+              "Голубые",
+              "blue eyes"
+            ],
+            [
+              "Зелёные",
+              "green eyes"
+            ],
+            [
+              "Карие",
+              "brown eyes"
+            ],
+            [
+              "Чёрные",
+              "black eyes"
+            ],
+            [
+              "Серые",
+              "gray eyes"
+            ],
+            [
+              "Янтарные",
+              "amber eyes"
+            ],
+            [
+              "Светящиеся",
+              "glowing eyes"
+            ],
+            [
+              "Фиолетовые",
+              "violet eyes"
+            ],
+            [
+              "Бирюзовые",
+              "turquoise eyes"
+            ],
+            [
+              "Разноцветные",
+              "heterochromia"
+            ],
+            [
+              "Ореховые",
+              "hazel eyes"
+            ],
+            [
+              "Золотистые",
+              "golden eyes"
+            ],
+            [
+              "Ледяные голубые",
+              "ice blue eyes"
+            ]
+          ],
+          "selected": "brown eyes",
+          "enabled": true,
+          "weight": null
+        },
+        {
+          "id": "hair",
+          "label": "Цвет волос",
+          "options": [
+            [
+              "Светлые",
+              "blonde hair"
+            ],
+            [
+              "Чёрные",
+              "black hair"
+            ],
+            [
+              "Рыжие",
+              "red hair"
+            ],
+            [
+              "Каштановые",
+              "brown hair"
+            ],
+            [
+              "Серебристые",
+              "silver hair"
+            ],
+            [
+              "Белые",
+              "white hair"
+            ],
+            [
+              "Розовые",
+              "pink hair"
+            ],
+            [
+              "Пепельные",
+              "ash blonde hair"
+            ],
+            [
+              "Тёмно-русые",
+              "dark blonde hair"
+            ],
+            [
+              "Медные",
+              "copper hair"
+            ],
+            [
+              "Синие",
+              "blue hair"
+            ],
+            [
+              "Фиолетовые",
+              "purple hair"
+            ],
+            [
+              "Бирюзовые",
+              "teal hair"
+            ],
+            [
+              "Двухцветные",
+              "two-tone hair"
+            ],
+            [
+              "Градиент",
+              "ombre hair"
+            ],
+            [
+              "Платиновые",
+              "platinum blonde hair"
+            ],
+            [
+              "Зелёные",
+              "green hair"
+            ]
+          ],
+          "selected": "red hair",
+          "enabled": true,
+          "weight": null
+        },
+        {
+          "id": "length",
+          "label": "Длина волос",
+          "options": [
+            [
+              "Длинные",
+              "long hair"
+            ],
+            [
+              "Короткие",
+              "short hair"
+            ],
+            [
+              "Средние",
+              "medium hair"
+            ],
+            [
+              "Очень длинные волосы",
+              "very long hair"
+            ]
+          ],
+          "selected": "very long hair",
+          "enabled": true,
+          "weight": null
+        },
+        {
+          "id": "body",
+          "label": "Телосложение",
+          "options": [
+            [
+              "Худое",
+              "slim"
+            ],
+            [
+              "Атлетическое",
+              "athletic build"
+            ],
+            [
+              "Спортивное",
+              "athletic"
+            ],
+            [
+              "Подтянутое",
+              "fit"
+            ],
+            [
+              "Худое",
+              "skinny"
+            ],
+            [
+              "Невысокая фигура",
+              "petite"
+            ],
+            [
+              "Высокий рост",
+              "tall"
+            ],
+            [
+              "Идеальное/Стройное",
+              "perfect body, fit, skinny"
+            ],
+            [
+              "Миниатюрное",
+              "petite, narrow waist"
+            ],
+            [
+              "Спортивное",
+              "athletic, toned abs"
+            ],
+            [
+              "Среднее телосложение",
+              "average build"
+            ],
+            [
+              "Коренастое",
+              "stocky build"
+            ],
+            [
+              "Плотное",
+              "heavyset build"
+            ],
+            [
+              "Мускулистое",
+              "muscular build"
+            ],
+            [
+              "Гибкое",
+              "lithe physique"
+            ],
+            [
+              "Широкие плечи",
+              "broad shoulders"
+            ],
+            [
+              "Узкие плечи",
+              "narrow shoulders"
+            ],
+            [
+              "Длинные ноги",
+              "long legs"
+            ],
+            [
+              "Невысокий рост",
+              "short stature"
+            ],
+            [
+              "Естественные пропорции",
+              "natural body proportions"
+            ]
+          ],
+          "selected": "perfect body, fit, skinny",
+          "enabled": true,
+          "weight": null
+        },
+        {
+          "id": "smile",
+          "label": "Выражение",
+          "options": [
+            [
+              "Улыбка",
+              "smile"
+            ],
+            [
+              "Радость",
+              "happy"
+            ],
+            [
+              "Подмигивание",
+              "winking"
+            ],
+            [
+              "Румянец",
+              "blush"
+            ],
+            [
+              "Серьёзное",
+              "serious expression"
+            ],
+            [
+              "Задумчивое",
+              "thoughtful expression"
+            ],
+            [
+              "Удивление",
+              "surprised expression"
+            ],
+            [
+              "Смущение",
+              "shy smile"
+            ],
+            [
+              "Любопытство",
+              "curious expression"
+            ],
+            [
+              "Сосредоточенность",
+              "focused expression"
+            ],
+            [
+              "Усталость",
+              "tired expression"
+            ],
+            [
+              "Решительность",
+              "determined expression"
+            ],
+            [
+              "Смех",
+              "laughing"
+            ],
+            [
+              "Грусть",
+              "sad expression"
+            ],
+            [
+              "Невозмутимость",
+              "calm expression"
+            ],
+            [
+              "Хитрая улыбка",
+              "mischievous smile"
+            ],
+            [
+              "Сонный взгляд",
+              "sleepy eyes"
+            ],
+            [
+              "Прищур",
+              "squinting eyes"
+            ]
+          ],
+          "selected": "happy",
+          "enabled": true,
+          "weight": null
+        },
+        {
+          "id": "id_mv9vq1bx_j3qtoqi",
+          "label": "Причёска",
+          "options": [
+            [
+              "Два хвоста",
+              "twintails"
+            ],
+            [
+              "Низкие хвосты",
+              "low twintails"
+            ],
+            [
+              "Косы",
+              "braids"
+            ],
+            [
+              "Растрёпанные волосы",
+              "messy hair"
+            ],
+            [
+              "Влажные волосы",
+              "wet hair"
+            ],
+            [
+              "Чёлка",
+              "bangs"
+            ],
+            [
+              "Конский хвост",
+              "ponytail"
+            ],
+            [
+              "Пучок",
+              "hair bun"
+            ],
+            [
+              "Вьющиеся волосы",
+              "curly hair"
+            ],
+            [
+              "Волнистые волосы",
+              "wavy hair"
+            ],
+            [
+              "Длинные",
+              "long hair"
+            ],
+            [
+              "Боб",
+              "bob cut"
+            ],
+            [
+              "Пикси",
+              "pixie cut"
+            ],
+            [
+              "Каре",
+              "blunt bob"
+            ],
+            [
+              "Андеркат",
+              "undercut"
+            ],
+            [
+              "Высокий хвост",
+              "high ponytail"
+            ],
+            [
+              "Боковой хвост",
+              "side ponytail"
+            ],
+            [
+              "Французская коса",
+              "french braid"
+            ],
+            [
+              "Рыбий хвост",
+              "fishtail braid"
+            ],
+            [
+              "Два пучка",
+              "double buns"
+            ],
+            [
+              "Полураспущенные",
+              "half-up hairstyle"
+            ],
+            [
+              "Прямые волосы",
+              "straight hair"
+            ],
+            [
+              "Афрокудри",
+              "coily hair"
+            ],
+            [
+              "Косая чёлка",
+              "side-swept bangs"
+            ],
+            [
+              "Чёлка-шторка",
+              "curtain bangs"
+            ],
+            [
+              "Короткая чёлка",
+              "micro bangs"
+            ],
+            [
+              "Косы-корнроу",
+              "cornrows"
+            ],
+            [
+              "Дреды",
+              "dreadlocks"
+            ]
+          ],
+          "selected": "wavy hair",
+          "enabled": true,
+          "weight": null
+        },
+        {
+          "id": "id_mv9vq1bx_iv55hsm",
+          "label": "Взгляд",
+          "options": [
+            [
+              "На зрителя",
+              "looking at viewer"
+            ],
+            [
+              "В сторону",
+              "looking away"
+            ],
+            [
+              "Через плечо",
+              "looking over shoulder"
+            ],
+            [
+              "Назад",
+              "looking back"
+            ],
+            [
+              "Вверх",
+              "looking up"
+            ],
+            [
+              "Вниз",
+              "looking down"
+            ]
+          ],
+          "selected": "looking at viewer",
+          "enabled": true,
+          "weight": null
+        },
+        {
+          "id": "id_mv9vq1bx_5xh0tyq",
+          "label": "Макияж",
+          "options": [
+            [
+              "Макияж",
+              "makeup"
+            ],
+            [
+              "Подводка",
+              "eyeliner"
+            ],
+            [
+              "Тушь",
+              "mascara"
+            ],
+            [
+              "Естественный макияж",
+              "natural makeup"
+            ],
+            [
+              "Дымчатый макияж",
+              "smokey eyes"
+            ],
+            [
+              "Без макияжа",
+              "no makeup"
+            ],
+            [
+              "Стрелки",
+              "winged eyeliner"
+            ],
+            [
+              "Веснушки макияжем",
+              "faux freckles"
+            ],
+            [
+              "Красная помада",
+              "red lipstick"
+            ],
+            [
+              "Готический макияж",
+              "gothic makeup"
+            ],
+            [
+              "Глянцевый макияж",
+              "dewy makeup"
+            ],
+            [
+              "Матовый макияж",
+              "matte makeup"
+            ],
+            [
+              "Цветные тени",
+              "colorful eyeshadow"
+            ]
+          ],
+          "selected": "makeup",
+          "enabled": false,
+          "weight": null
+        },
+        {
+          "id": "id_mv9vq1bx_x9sm9rs",
+          "label": "Особенности кожи",
+          "options": [
+            [
+              "Веснушки",
+              "freckles"
+            ],
+            [
+              "Родинка",
+              "beauty mark"
+            ],
+            [
+              "Родинка под глазом",
+              "mole under eye"
+            ],
+            [
+              "Текстура кожи",
+              "realistic skin texture"
+            ],
+            [
+              "Поры кожи",
+              "realistic skin pores"
+            ],
+            [
+              "Текстура кожи",
+              "realistic skin texture, realistic skin pores"
+            ],
+            [
+              "Естественные несовершенства",
+              "natural skin imperfections"
+            ],
+            [
+              "Пушковые волосы",
+              "peach fuzz"
+            ],
+            [
+              "Витилиго",
+              "vitiligo"
+            ],
+            [
+              "Шрамы",
+              "facial scars"
+            ],
+            [
+              "Ямочки на щеках",
+              "dimples"
+            ],
+            [
+              "Загар",
+              "tanned skin"
+            ],
+            [
+              "Бледная кожа",
+              "pale skin"
+            ],
+            [
+              "Оливковый тон",
+              "olive skin tone"
+            ],
+            [
+              "Тёмная кожа",
+              "dark skin tone"
+            ],
+            [
+              "Светлая кожа",
+              "fair skin"
+            ],
+            [
+              "Тонкая текстура",
+              "skin microtexture"
+            ]
+          ],
+          "selected": "freckles",
+          "enabled": false,
+          "weight": null
+        },
+        {
+          "id": "id_mv9womhp_jss5h9l",
+          "label": "Лицо и эмоции",
+          "options": [
+            [
+              "Румянец",
+              "flushed face, blush"
+            ],
+            [
+              "Блестящие губы",
+              "glossy lips, parted lips"
+            ]
+          ],
+          "selected": "flushed face, blush",
+          "enabled": false,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "id": "clothing",
+      "label": "Одежда",
+      "open": false,
+      "enabled": true,
+      "polarity": "positive",
+      "rows": [
+        {
+          "id": "top",
+          "label": "Верх",
+          "options": [
+            [
+              "Рубашка",
+              "white shirt"
+            ],
+            [
+              "Свитер",
+              "sweater"
+            ],
+            [
+              "Куртка",
+              "black jacket"
+            ],
+            [
+              "Свободная рубашка",
+              "oversized shirt"
+            ],
+            [
+              "Водолазка",
+              "turtleneck"
+            ],
+            [
+              "Кожаная куртка",
+              "leather jacket"
+            ],
+            [
+              "Пиджак",
+              "blazer"
+            ],
+            [
+              "Футболка",
+              "t-shirt"
+            ],
+            [
+              "Худи",
+              "hoodie"
+            ],
+            [
+              "Кардиган",
+              "cardigan"
+            ],
+            [
+              "Жилет",
+              "vest"
+            ],
+            [
+              "Джинсовая куртка",
+              "denim jacket"
+            ],
+            [
+              "Пальто",
+              "wool coat"
+            ],
+            [
+              "Тренч",
+              "trench coat"
+            ],
+            [
+              "Бомбер",
+              "bomber jacket"
+            ],
+            [
+              "Фланелевая рубашка",
+              "flannel shirt"
+            ],
+            [
+              "Поло",
+              "polo shirt"
+            ],
+            [
+              "Джемпер",
+              "pullover"
+            ],
+            [
+              "Дождевик",
+              "raincoat"
+            ],
+            [
+              "Кимоно",
+              "kimono jacket"
+            ],
+            [
+              "Униформа",
+              "uniform shirt"
+            ],
+            [
+              "Вязаный свитер",
+              "chunky knit sweater"
+            ]
+          ],
+          "selected": "white shirt",
+          "enabled": false,
+          "weight": null
+        },
+        {
+          "id": "bottom",
+          "label": "Низ",
+          "options": [
+            [
+              "Джинсы",
+              "jeans"
+            ],
+            [
+              "Юбка",
+              "pleated skirt"
+            ],
+            [
+              "Брюки",
+              "trousers"
+            ],
+            [
+              "Длинная юбка",
+              "long skirt"
+            ],
+            [
+              "Классические брюки",
+              "dress pants"
+            ],
+            [
+              "Шорты",
+              "shorts"
+            ],
+            [
+              "Карго",
+              "cargo pants"
+            ],
+            [
+              "Чиносы",
+              "chinos"
+            ],
+            [
+              "Джоггеры",
+              "joggers"
+            ],
+            [
+              "Кюлоты",
+              "culottes"
+            ],
+            [
+              "Юбка-миди",
+              "midi skirt"
+            ],
+            [
+              "Юбка-макси",
+              "maxi skirt"
+            ],
+            [
+              "Широкие брюки",
+              "wide-leg trousers"
+            ],
+            [
+              "Леггинсы",
+              "leggings"
+            ],
+            [
+              "Комбинезон",
+              "overalls"
+            ],
+            [
+              "Плиссированная юбка-миди",
+              "pleated midi skirt"
+            ]
+          ],
+          "selected": "jeans",
+          "enabled": false,
+          "weight": null
+        },
+        {
+          "id": "shoes",
+          "label": "Обувь",
+          "options": [
+            [
+              "Кроссовки",
+              "sneakers"
+            ],
+            [
+              "Ботинки",
+              "boots"
+            ],
+            [
+              "Туфли",
+              "heels"
+            ],
+            [
+              "Балетки",
+              "flats"
+            ],
+            [
+              "Лоферы",
+              "loafers"
+            ]
+          ],
+          "selected": "sneakers",
+          "enabled": false,
+          "weight": null
+        },
+        {
+          "id": "id_mv9vq1bx_numte3l",
+          "label": "Платье",
+          "options": [
+            [
+              "Вечернее платье",
+              "evening dress"
+            ],
+            [
+              "Длинное платье",
+              "long dress"
+            ],
+            [
+              "Платье с цветами",
+              "floral dress"
+            ],
+            [
+              "Коктейльное платье",
+              "cocktail dress"
+            ],
+            [
+              "Платье-рубашка",
+              "shirt dress"
+            ],
+            [
+              "Сарафан",
+              "sundress"
+            ],
+            [
+              "Платье-свитер",
+              "sweater dress"
+            ],
+            [
+              "Платье А-силуэта",
+              "a-line dress"
+            ],
+            [
+              "Платье в горошек",
+              "polka dot dress"
+            ],
+            [
+              "Винтажное платье",
+              "vintage dress"
+            ],
+            [
+              "Платье с вышивкой",
+              "embroidered dress"
+            ],
+            [
+              "Бальное платье",
+              "ball gown"
+            ],
+            [
+              "Летнее платье",
+              "summer dress"
+            ]
+          ],
+          "selected": "evening dress",
+          "enabled": false,
+          "weight": null
+        },
+        {
+          "id": "id_mv9vq1bx_u9kiqgy",
+          "label": "Материал",
+          "options": [
+            [
+              "Шёлк",
+              "silk texture"
+            ],
+            [
+              "Кожа",
+              "leather texture"
+            ],
+            [
+              "Бархат",
+              "velvet texture"
+            ],
+            [
+              "Деним",
+              "denim texture"
+            ],
+            [
+              "Вязаная ткань",
+              "knitted fabric"
+            ],
+            [
+              "Лён",
+              "linen fabric"
+            ],
+            [
+              "Хлопок",
+              "cotton fabric"
+            ],
+            [
+              "Шерсть",
+              "wool fabric"
+            ],
+            [
+              "Твид",
+              "tweed fabric"
+            ],
+            [
+              "Вельвет",
+              "corduroy fabric"
+            ],
+            [
+              "Шифон",
+              "chiffon fabric"
+            ],
+            [
+              "Атлас",
+              "satin fabric"
+            ],
+            [
+              "Замша",
+              "suede texture"
+            ],
+            [
+              "Флис",
+              "fleece fabric"
+            ],
+            [
+              "Жаккард",
+              "jacquard fabric"
+            ]
+          ],
+          "selected": "silk texture",
+          "enabled": false,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "id": "id_mv9vq1bx_u9qjg5g",
+      "label": "Аксессуары",
+      "open": false,
+      "enabled": true,
+      "polarity": "positive",
+      "rows": [
+        {
+          "id": "id_mv9vq1bx_ivpr51f",
+          "label": "Очки",
+          "options": [
+            [
+              "Очки",
+              "glasses"
+            ],
+            [
+              "Круглые очки",
+              "round glasses"
+            ],
+            [
+              "Очки-авиаторы",
+              "aviator glasses"
+            ],
+            [
+              "Очки в толстой оправе",
+              "thick-rimmed glasses"
+            ],
+            [
+              "Солнцезащитные очки",
+              "sunglasses"
+            ],
+            [
+              "Монокль",
+              "monocle"
+            ]
+          ],
+          "selected": "glasses",
+          "enabled": false,
+          "weight": null
+        },
+        {
+          "id": "id_mv9vq1bx_xteznir",
+          "label": "Украшения",
+          "options": [
+            [
+              "Украшения",
+              "jewelry"
+            ]
+          ],
+          "selected": "jewelry",
+          "enabled": false,
+          "weight": null
+        },
+        {
+          "id": "id_mv9vq1bx_r9msady",
+          "label": "Ожерелье",
+          "options": [
+            [
+              "Ожерелье",
+              "necklace"
+            ]
+          ],
+          "selected": "necklace",
+          "enabled": false,
+          "weight": null
+        },
+        {
+          "id": "id_mv9vq1bx_7lywp5p",
+          "label": "Серьги",
+          "options": [
+            [
+              "Серьги",
+              "earrings"
+            ]
+          ],
+          "selected": "earrings",
+          "enabled": false,
+          "weight": null
+        },
+        {
+          "id": "id_mv9vq1bx_hqvb2e3",
+          "label": "Браслет",
+          "options": [
+            [
+              "Браслет",
+              "bracelet"
+            ]
+          ],
+          "selected": "bracelet",
+          "enabled": false,
+          "weight": null
+        },
+        {
+          "id": "id_mv9vq1bx_3r7mb2n",
+          "label": "Часы",
+          "options": [
+            [
+              "Часы",
+              "watch"
+            ]
+          ],
+          "selected": "watch",
+          "enabled": false,
+          "weight": null
+        },
+        {
+          "id": "id_mv9vq1bx_aq8zmdp",
+          "label": "Шляпа",
+          "options": [
+            [
+              "Шляпа",
+              "hat"
+            ],
+            [
+              "Берет",
+              "beret"
+            ],
+            [
+              "Панама",
+              "bucket hat"
+            ],
+            [
+              "Бейсболка",
+              "baseball cap"
+            ],
+            [
+              "Федора",
+              "fedora hat"
+            ],
+            [
+              "Соломенная шляпа",
+              "straw hat"
+            ],
+            [
+              "Вязаная шапка",
+              "beanie"
+            ]
+          ],
+          "selected": "hat",
+          "enabled": false,
+          "weight": null
+        },
+        {
+          "id": "id_mv9vq1bx_qiyrjfl",
+          "label": "Шарф",
+          "options": [
+            [
+              "Шарф",
+              "scarf"
+            ]
+          ],
+          "selected": "scarf",
+          "enabled": false,
+          "weight": null
+        },
+        {
+          "id": "extra___8",
+          "label": "Сумки",
+          "options": [
+            [
+              "Рюкзак",
+              "backpack"
+            ],
+            [
+              "Сумка через плечо",
+              "crossbody bag"
+            ],
+            [
+              "Портфель",
+              "briefcase"
+            ],
+            [
+              "Шоппер",
+              "tote bag"
+            ],
+            [
+              "Поясная сумка",
+              "waist bag"
+            ],
+            [
+              "Дорожная сумка",
+              "duffel bag"
+            ]
+          ],
+          "selected": "backpack",
+          "enabled": false,
+          "weight": null
+        },
+        {
+          "id": "extra___9",
+          "label": "Дополнительные аксессуары",
+          "options": [
+            [
+              "Перчатки",
+              "gloves"
+            ],
+            [
+              "Зонт",
+              "umbrella"
+            ],
+            [
+              "Наушники",
+              "headphones"
+            ],
+            [
+              "Галстук",
+              "necktie"
+            ],
+            [
+              "Бабочка",
+              "bow tie"
+            ],
+            [
+              "Ремень",
+              "belt"
+            ],
+            [
+              "Заколка",
+              "hair clip"
+            ],
+            [
+              "Брошь",
+              "brooch"
+            ],
+            [
+              "Шейный платок",
+              "neck scarf"
+            ],
+            [
+              "Кольцо",
+              "ring"
+            ]
+          ],
+          "selected": "gloves",
+          "enabled": false,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "id": "id_mv9vq1bx_roq8vjv",
+      "label": "Поза",
+      "open": false,
+      "enabled": true,
+      "polarity": "positive",
+      "rows": [
+        {
+          "id": "id_mv9vq1bx_99f8wfq",
+          "label": "Положение",
+          "options": [
+            [
+              "Стоя",
+              "standing"
+            ],
+            [
+              "Сидя",
+              "sitting"
+            ],
+            [
+              "Сидя на диване",
+              "sitting on a sofa"
+            ],
+            [
+              "Идёт",
+              "walking"
+            ],
+            [
+              "Скрещённые ноги",
+              "crossed legs"
+            ],
+            [
+              "Руки на поясе",
+              "hands on hips"
+            ],
+            [
+              "Руки за головой",
+              "hands behind head"
+            ],
+            [
+              "Потягивание",
+              "stretching"
+            ],
+            [
+              "Наклон вперёд",
+              "leaning forward"
+            ],
+            [
+              "Наклон назад",
+              "leaning back"
+            ],
+            [
+              "Сидя по-турецки",
+              "sitting cross-legged"
+            ],
+            [
+              "Прислонившись к стене",
+              "leaning against wall"
+            ],
+            [
+              "На лестнице",
+              "sitting on stairs"
+            ],
+            [
+              "Бег",
+              "running"
+            ],
+            [
+              "Прыжок",
+              "jumping"
+            ],
+            [
+              "Присев",
+              "crouching"
+            ],
+            [
+              "На одном колене",
+              "kneeling on one knee"
+            ],
+            [
+              "Сидя боком",
+              "sitting sideways"
+            ],
+            [
+              "Повернув корпус",
+              "torso twist"
+            ],
+            [
+              "На носках",
+              "standing on tiptoes"
+            ],
+            [
+              "Лёжа на боку",
+              "lying on side"
+            ],
+            [
+              "На велосипеде",
+              "riding bicycle"
+            ]
+          ],
+          "selected": "standing",
+          "enabled": false,
+          "weight": null
+        },
+        {
+          "id": "id_mv9vq1bx_b7wye8q",
+          "label": "Жест",
+          "options": [
+            [
+              "Наклон головы",
+              "head tilt"
+            ],
+            [
+              "Подбородок на руке",
+              "resting chin on hand"
+            ],
+            [
+              "Играет с волосами",
+              "playing with hair"
+            ],
+            [
+              "Тянет руку к зрителю",
+              "reaching towards viewer"
+            ],
+            [
+              "Поправляет волосы",
+              "adjusting hair"
+            ],
+            [
+              "Держит книгу",
+              "holding a book"
+            ],
+            [
+              "Держит чашку",
+              "holding a cup"
+            ],
+            [
+              "Машет рукой",
+              "waving hand"
+            ],
+            [
+              "Показывает жест победы",
+              "peace sign"
+            ],
+            [
+              "Скрещённые руки",
+              "arms crossed"
+            ],
+            [
+              "Указывает вдаль",
+              "pointing into distance"
+            ],
+            [
+              "Держит зонт",
+              "holding umbrella"
+            ],
+            [
+              "Держит цветы",
+              "holding flowers"
+            ],
+            [
+              "Поправляет очки",
+              "adjusting glasses"
+            ],
+            [
+              "Руки в карманах",
+              "hands in pockets"
+            ],
+            [
+              "Держит телефон",
+              "holding smartphone"
+            ],
+            [
+              "Пишет в блокноте",
+              "writing in notebook"
+            ],
+            [
+              "Держит фотоаппарат",
+              "holding camera"
+            ]
+          ],
+          "selected": "head tilt",
+          "enabled": false,
+          "weight": null
+        },
+        {
+          "id": "id_mv9vq1bx_xa4d4ji",
+          "label": "Динамика",
+          "options": [
+            [
+              "Динамичная поза",
+              "dynamic pose"
+            ],
+            [
+              "Естественная поза",
+              "natural pose"
+            ],
+            [
+              "Непостановочное фото",
+              "candid photo"
+            ],
+            [
+              "В движении",
+              "in motion"
+            ]
+          ],
+          "selected": "dynamic pose",
+          "enabled": false,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "id": "id_mv9vq1bx_ktf43qb",
+      "label": "Камера",
+      "open": false,
+      "enabled": true,
+      "polarity": "positive",
+      "rows": [
+        {
+          "id": "id_mv9vq1bx_nu4wt0d",
+          "label": "Кадр",
+          "options": [
+            [
+              "Крупный план",
+              "close-up"
+            ],
+            [
+              "Лицо крупным планом",
+              "face close-up"
+            ],
+            [
+              "Верхняя часть тела",
+              "upper body"
+            ],
+            [
+              "До середины бедра",
+              "cowboy shot"
+            ],
+            [
+              "В полный рост",
+              "full body"
+            ],
+            [
+              "Общий план",
+              "wide shot"
+            ],
+            [
+              "Макросъёмка",
+              "macro shot"
+            ]
+          ],
+          "selected": "full body",
+          "enabled": true,
+          "weight": null
+        },
+        {
+          "id": "id_mv9vq1bx_d0mjqk2",
+          "label": "Ракурс",
+          "options": [
+            [
+              "Сверху",
+              "from above"
+            ],
+            [
+              "Снизу",
+              "from below"
+            ],
+            [
+              "Голландский угол",
+              "dutch angle"
+            ],
+            [
+              "Профиль",
+              "profile"
+            ],
+            [
+              "Со спины",
+              "back view"
+            ],
+            [
+              "На уровне глаз",
+              "eye level"
+            ],
+            [
+              "Через плечо",
+              "over the shoulder"
+            ]
+          ],
+          "selected": "from above",
+          "enabled": false,
+          "weight": null
+        },
+        {
+          "id": "id_mv9vq1bx_f90kodj",
+          "label": "Объектив",
+          "options": [
+            [
+              "Телефото",
+              "telephoto lens"
+            ],
+            [
+              "Рыбий глаз",
+              "fisheye lens"
+            ],
+            [
+              "Широкоугольный",
+              "wide-angle lens"
+            ],
+            [
+              "35 мм",
+              "35mm lens"
+            ],
+            [
+              "50 мм",
+              "50mm lens"
+            ],
+            [
+              "85 мм",
+              "85mm lens"
+            ],
+            [
+              "24 мм",
+              "24mm lens"
+            ],
+            [
+              "28 мм",
+              "28mm lens"
+            ],
+            [
+              "105 мм",
+              "105mm lens"
+            ],
+            [
+              "135 мм",
+              "135mm lens"
+            ],
+            [
+              "Макрообъектив",
+              "macro lens"
+            ],
+            [
+              "Анаморфот",
+              "anamorphic lens"
+            ],
+            [
+              "Tilt-shift",
+              "tilt-shift lens"
+            ]
+          ],
+          "selected": "telephoto lens",
+          "enabled": false,
+          "weight": null
+        },
+        {
+          "id": "id_mv9vq1bx_8ryj5be",
+          "label": "Композиция",
+          "options": [
+            [
+              "Вертикальная",
+              "portrait orientation"
+            ],
+            [
+              "Кинематографическая",
+              "cinematic framing"
+            ],
+            [
+              "Отражение в зеркале",
+              "reflection in mirror"
+            ],
+            [
+              "Правило третей",
+              "rule of thirds"
+            ],
+            [
+              "Симметрия",
+              "symmetrical composition"
+            ],
+            [
+              "Свободное пространство",
+              "negative space"
+            ],
+            [
+              "Ведущие линии",
+              "leading lines"
+            ],
+            [
+              "Диагональная композиция",
+              "diagonal composition"
+            ],
+            [
+              "Кадр в кадре",
+              "frame within a frame"
+            ],
+            [
+              "Низкий горизонт",
+              "low horizon line"
+            ],
+            [
+              "Слои глубины",
+              "layered composition"
+            ],
+            [
+              "Минимализм",
+              "minimalist composition"
+            ],
+            [
+              "Силуэт",
+              "silhouette composition"
+            ],
+            [
+              "Крупный передний план",
+              "foreground emphasis"
+            ]
+          ],
+          "selected": "portrait orientation",
+          "enabled": false,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "id": "id_mv9vq1bx_mx9xy8r",
+      "label": "Освещение",
+      "open": false,
+      "enabled": true,
+      "polarity": "positive",
+      "rows": [
+        {
+          "id": "id_mv9vq1bx_x36azto",
+          "label": "Основной свет",
+          "options": [
+            [
+              "Кинематографический",
+              "cinematic lighting"
+            ],
+            [
+              "Объёмный",
+              "volumetric lighting"
+            ],
+            [
+              "Мягкий",
+              "soft lighting"
+            ],
+            [
+              "Жёсткий",
+              "hard lighting"
+            ],
+            [
+              "Контурный",
+              "rim lighting"
+            ],
+            [
+              "Контровой",
+              "backlighting"
+            ],
+            [
+              "Неоновый",
+              "neon lighting"
+            ],
+            [
+              "Свечи",
+              "candlelight"
+            ],
+            [
+              "Лунный",
+              "moonlight"
+            ],
+            [
+              "Солнечный",
+              "sunlight"
+            ],
+            [
+              "Рембрандтовский свет",
+              "Rembrandt lighting"
+            ],
+            [
+              "Свет бабочки",
+              "butterfly lighting"
+            ],
+            [
+              "Студийный софтбокс",
+              "softbox lighting"
+            ],
+            [
+              "Рассеянный свет",
+              "diffused light"
+            ],
+            [
+              "Боковой свет",
+              "side lighting"
+            ],
+            [
+              "Пасмурный дневной",
+              "overcast daylight"
+            ],
+            [
+              "Отражённый свет",
+              "bounce lighting"
+            ],
+            [
+              "Свет костра",
+              "firelight"
+            ],
+            [
+              "Свет фонарей",
+              "streetlamp lighting"
+            ]
+          ],
+          "selected": "cinematic lighting",
+          "enabled": false,
+          "weight": null
+        },
+        {
+          "id": "id_mv9vq1bx_e6c1ege",
+          "label": "Время и цвет",
+          "options": [
+            [
+              "Золотой час",
+              "golden hour"
+            ],
+            [
+              "Синий час",
+              "blue hour"
+            ],
+            [
+              "Приглушённый свет",
+              "dimly lit"
+            ],
+            [
+              "Тёплый свет",
+              "warm lighting"
+            ],
+            [
+              "Холодный свет",
+              "cool lighting"
+            ],
+            [
+              "Оконный свет",
+              "window light"
+            ]
+          ],
+          "selected": "golden hour",
+          "enabled": false,
+          "weight": null
+        },
+        {
+          "id": "id_mv9vq1bx_dgxy9sx",
+          "label": "Световые эффекты",
+          "options": [
+            [
+              "Драматичные тени",
+              "dramatic shadows"
+            ],
+            [
+              "Светотень",
+              "chiaroscuro"
+            ],
+            [
+              "Лучи",
+              "light rays"
+            ],
+            [
+              "Солнечные лучи",
+              "sunbeams"
+            ],
+            [
+              "Блик объектива",
+              "lens flare"
+            ],
+            [
+              "Засветка",
+              "light leaks"
+            ],
+            [
+              "Глобальное освещение",
+              "global illumination"
+            ],
+            [
+              "Трассировка лучей",
+              "ray tracing"
+            ],
+            [
+              "Боке",
+              "bokeh"
+            ],
+            [
+              "Пятнистый свет",
+              "dappled sunlight"
+            ],
+            [
+              "Свет сквозь листву",
+              "sunlight filtering through leaves"
+            ],
+            [
+              "Пыль в лучах",
+              "dust motes in light"
+            ],
+            [
+              "Цветные рефлексы",
+              "colored reflections"
+            ],
+            [
+              "Туман с подсветкой",
+              "backlit fog"
+            ],
+            [
+              "Мягкое свечение",
+              "soft glow"
+            ]
+          ],
+          "selected": "dramatic shadows",
+          "enabled": false,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "id": "id_mv9vq1bx_x2271sd",
+      "label": "Качество",
+      "open": true,
+      "enabled": true,
+      "polarity": "negative",
+      "rows": [
+        {
+          "id": "id_mv9vq1bx_pzi1qhv",
+          "label": "Низкое качество",
+          "options": [
+            [
+              "Низкое качество",
+              "low quality"
+            ]
+          ],
+          "selected": "low quality",
+          "enabled": false,
+          "weight": null
+        },
+        {
+          "id": "id_mv9vq1bx_a6m9khk",
+          "label": "Худшее качество",
+          "options": [
+            [
+              "Худшее качество",
+              "worst quality"
+            ]
+          ],
+          "selected": "worst quality",
+          "enabled": false,
+          "weight": null
+        },
+        {
+          "id": "id_mv9vq1bx_4nwqa9q",
+          "label": "Низкое разрешение",
+          "options": [
+            [
+              "Низкое разрешение",
+              "lowres"
+            ]
+          ],
+          "selected": "lowres",
+          "enabled": false,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "id": "id_mv9vq1bx_8n7lpwf",
+      "label": "Анатомия",
+      "open": true,
+      "enabled": true,
+      "polarity": "negative",
+      "rows": [
+        {
+          "id": "id_mv9vq1bx_cjqvy4b",
+          "label": "Ошибки анатомии",
+          "options": [
+            [
+              "Ошибки анатомии",
+              "bad anatomy"
+            ]
+          ],
+          "selected": "bad anatomy",
+          "enabled": false,
+          "weight": null
+        },
+        {
+          "id": "id_mv9vq1bx_at32v5f",
+          "label": "Ошибки пропорций",
+          "options": [
+            [
+              "Ошибки пропорций",
+              "bad proportions"
+            ]
+          ],
+          "selected": "bad proportions",
+          "enabled": false,
+          "weight": null
+        },
+        {
+          "id": "id_mv9vq1bx_a8kvfgx",
+          "label": "Ошибки рук",
+          "options": [
+            [
+              "Ошибки рук",
+              "bad hands"
+            ]
+          ],
+          "selected": "bad hands",
+          "enabled": false,
+          "weight": null
+        },
+        {
+          "id": "id_mv9vq1bx_ubwkkjy",
+          "label": "Лишние пальцы",
+          "options": [
+            [
+              "Лишние пальцы",
+              "extra fingers"
+            ]
+          ],
+          "selected": "extra fingers",
+          "enabled": false,
+          "weight": null
+        },
+        {
+          "id": "id_mv9vq1bx_umqb45g",
+          "label": "Недостающие пальцы",
+          "options": [
+            [
+              "Недостающие пальцы",
+              "missing fingers"
+            ]
+          ],
+          "selected": "missing fingers",
+          "enabled": false,
+          "weight": null
+        },
+        {
+          "id": "id_mv9vq1bx_isrri2k",
+          "label": "Лишние конечности",
+          "options": [
+            [
+              "Лишние конечности",
+              "extra limbs"
+            ]
+          ],
+          "selected": "extra limbs",
+          "enabled": false,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "id": "id_mv9vq1bx_hs54jcb",
+      "label": "Лишние элементы",
+      "open": false,
+      "enabled": true,
+      "polarity": "negative",
+      "rows": [
+        {
+          "id": "id_mv9vq1bx_qzkb4rj",
+          "label": "Водяной знак",
+          "options": [
+            [
+              "Водяной знак",
+              "watermark"
+            ]
+          ],
+          "selected": "watermark",
+          "enabled": false,
+          "weight": null
+        },
+        {
+          "id": "id_mv9vq1bx_51jmyi5",
+          "label": "Текст",
+          "options": [
+            [
+              "Текст",
+              "text"
+            ]
+          ],
+          "selected": "text",
+          "enabled": false,
+          "weight": null
+        },
+        {
+          "id": "id_mv9vq1bx_ajt2t65",
+          "label": "Подпись",
+          "options": [
+            [
+              "Подпись",
+              "signature"
+            ]
+          ],
+          "selected": "signature",
+          "enabled": false,
+          "weight": null
+        },
+        {
+          "id": "id_mv9vq1bx_7w7nhg1",
+          "label": "Логотип",
+          "options": [
+            [
+              "Логотип",
+              "logo"
+            ]
+          ],
+          "selected": "logo",
+          "enabled": false,
+          "weight": null
+        },
+        {
+          "id": "id_mv9vq1bx_mjq3g6k",
+          "label": "Рамка",
+          "options": [
+            [
+              "Рамка",
+              "border"
+            ]
+          ],
+          "selected": "border",
+          "enabled": false,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "id": "id_mv9vq1bx_6qp06xx",
+      "label": "Дефекты изображения",
+      "open": true,
+      "enabled": true,
+      "polarity": "negative",
+      "rows": [
+        {
+          "id": "id_mv9vq1by_f2bv7r8",
+          "label": "Размытость",
+          "options": [
+            [
+              "Размытость",
+              "blurry"
+            ]
+          ],
+          "selected": "blurry",
+          "enabled": false,
+          "weight": null
+        },
+        {
+          "id": "id_mv9vq1by_won4shx",
+          "label": "Не в фокусе",
+          "options": [
+            [
+              "Не в фокусе",
+              "out of focus"
+            ]
+          ],
+          "selected": "out of focus",
+          "enabled": false,
+          "weight": null
+        },
+        {
+          "id": "id_mv9vq1by_4inpymx",
+          "label": "Артефакты JPEG",
+          "options": [
+            [
+              "Артефакты JPEG",
+              "jpeg artifacts"
+            ]
+          ],
+          "selected": "jpeg artifacts",
+          "enabled": false,
+          "weight": null
+        },
+        {
+          "id": "id_mv9vq1by_f1o8hc6",
+          "label": "Пикселизация",
+          "options": [
+            [
+              "Пикселизация",
+              "pixelated"
+            ]
+          ],
+          "selected": "pixelated",
+          "enabled": false,
+          "weight": null
+        },
+        {
+          "id": "id_mv9vq1by_a5j7tpz",
+          "label": "Пересвет",
+          "options": [
+            [
+              "Пересвет",
+              "overexposed"
+            ]
+          ],
+          "selected": "overexposed",
+          "enabled": false,
+          "weight": null
+        },
+        {
+          "id": "id_mv9vq1by_fa3hjue",
+          "label": "Недоэкспонирование",
+          "options": [
+            [
+              "Недоэкспонирование",
+              "underexposed"
+            ]
+          ],
+          "selected": "underexposed",
+          "enabled": false,
+          "weight": null
+        },
+        {
+          "id": "id_mv9vq1by_qah5nye",
+          "label": "Сильный шум",
+          "options": [
+            [
+              "Сильный шум",
+              "excessive noise"
+            ]
+          ],
+          "selected": "excessive noise",
+          "enabled": false,
+          "weight": null
+        },
+        {
+          "id": "id_mv9vq1by_09lfgm6",
+          "label": "Слишком резкое",
+          "options": [
+            [
+              "Слишком резкое",
+              "oversharpened"
+            ]
+          ],
+          "selected": "oversharpened",
+          "enabled": false,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "id": "id_mv9womhq_ww166g7",
+      "label": "Камера и Ракурс",
+      "open": false,
+      "enabled": true,
+      "polarity": "positive",
+      "rows": [
+        {
+          "id": "id_mv9womhq_sz3xgw2",
+          "label": "Кадр",
+          "options": [
+            [
+              "Крупный план",
+              "close-up, face close-up"
+            ],
+            [
+              "Верхняя часть тела",
+              "upper body"
+            ],
+            [
+              "До середины бедра",
+              "cowboy shot"
+            ],
+            [
+              "В полный рост",
+              "full body"
+            ],
+            [
+              "POV (От первого лица)",
+              "pov, pov hands"
+            ]
+          ],
+          "selected": "cowboy shot",
+          "enabled": true,
+          "weight": null
+        },
+        {
+          "id": "id_mv9womhq_5e9jhy7",
+          "label": "Ракурс",
+          "options": [
+            [
+              "На уровне глаз",
+              "eye level"
+            ],
+            [
+              "Сверху",
+              "from above, high angle"
+            ],
+            [
+              "Снизу",
+              "from below, low angle"
+            ],
+            [
+              "Со спины",
+              "back view, rear view"
+            ]
+          ],
+          "selected": "eye level",
+          "enabled": false,
+          "weight": null
+        },
+        {
+          "id": "id_mv9womhq_mtgqwib",
+          "label": "Объектив и Детали",
+          "options": [
+            [
+              "Глубина резкости",
+              "depth of field, blurred background"
+            ],
+            [
+              "Портретный 85мм",
+              "85mm lens, sharp focus on face"
+            ],
+            [
+              "Широкоугольный",
+              "wide-angle lens"
+            ],
+            [
+              "Макро",
+              "macro shot"
+            ]
+          ],
+          "selected": "depth of field, blurred background",
+          "enabled": true,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "id": "id_mv9womhq_s1ye0vg",
+      "label": "Негатив: Качество и Артефакты",
+      "open": false,
+      "enabled": true,
+      "polarity": "negative",
+      "rows": [
+        {
+          "id": "id_mv9womhq_v2hbviy",
+          "label": "Pony негативы",
+          "options": [
+            [
+              "Низкие оценки Pony",
+              "score_4, score_5, score_6"
+            ],
+            [
+              "Плохое качество",
+              "worst quality, low quality, lowres"
+            ],
+            [
+              "Артефакты",
+              "jpeg artifacts, pixelated, blurry"
+            ]
+          ],
+          "selected": "score_4, score_5, score_6",
+          "enabled": true,
+          "weight": null
+        },
+        {
+          "id": "id_mv9womhq_d42or8l",
+          "label": "Водяные знаки и текст",
+          "options": [
+            [
+              "Текст и подписи",
+              "text, signature, watermark, logo"
+            ],
+            [
+              "Рамки",
+              "border, frame"
+            ]
+          ],
+          "selected": "text, signature, watermark, logo",
+          "enabled": true,
+          "weight": null
+        },
+        {
+          "id": "extra___2",
+          "label": "Нежелательная стилизация",
+          "options": [
+            [
+              "Пластиковая кожа",
+              "plastic skin"
+            ],
+            [
+              "Чрезмерная ретушь",
+              "overprocessed skin"
+            ],
+            [
+              "Слишком сильное размытие",
+              "excessive blur"
+            ],
+            [
+              "Плохая цветопередача",
+              "bad color grading"
+            ],
+            [
+              "Полосы на изображении",
+              "color banding"
+            ],
+            [
+              "Сжатие",
+              "compression artifacts"
+            ]
+          ],
+          "selected": "plastic skin",
+          "enabled": false,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "id": "id_mv9womhq_fay4d60",
+      "label": "Негатив: Анатомия и Дефекты",
+      "open": true,
+      "enabled": true,
+      "polarity": "negative",
+      "rows": [
+        {
+          "id": "id_mv9womhq_4arzpc2",
+          "label": "Ошибки анатомии",
+          "options": [
+            [
+              "Плохая анатомия",
+              "bad anatomy, bad proportions, gross proportions"
+            ],
+            [
+              "Ошибки рук/пальцев",
+              "bad hands, extra fingers, missing fingers, mutated hands"
+            ],
+            [
+              "Лишние конечности",
+              "extra limbs, missing limbs, floating limbs, extra arms, extra legs"
+            ],
+            [
+              "Уродства",
+              "mutated, disfigured, deformed, ugly"
+            ]
+          ],
+          "selected": "bad anatomy, bad proportions, gross proportions",
+          "enabled": true,
+          "weight": null
+        },
+        {
+          "id": "extra___1",
+          "label": "Ошибки лица",
+          "options": [
+            [
+              "Асимметрия глаз",
+              "asymmetrical eyes"
+            ],
+            [
+              "Искажённое лицо",
+              "distorted face"
+            ],
+            [
+              "Дублированное лицо",
+              "duplicate face"
+            ],
+            [
+              "Искажённые зубы",
+              "deformed teeth"
+            ],
+            [
+              "Неправильные уши",
+              "malformed ears"
+            ]
+          ],
+          "selected": "asymmetrical eyes",
+          "enabled": false,
+          "weight": null
+        },
+        {
+          "id": "extra___2_unique_1",
+          "label": "Ошибки окружения",
+          "options": [
+            [
+              "Искажённая перспектива",
+              "warped perspective"
+            ],
+            [
+              "Нелогичные тени",
+              "inconsistent shadows"
+            ],
+            [
+              "Парящие предметы",
+              "floating objects"
+            ],
+            [
+              "Дублированные предметы",
+              "duplicate objects"
+            ],
+            [
+              "Нарушенная геометрия",
+              "broken geometry"
+            ]
+          ],
+          "selected": "warped perspective",
+          "enabled": false,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "id": "closing",
+      "label": "Завершающие теги",
+      "open": false,
+      "enabled": true,
+      "polarity": "positive",
+      "rows": [
+        {
+          "id": "detail",
+          "label": "Детали",
+          "options": [
+            [
+              "Глубина резкости",
+              "depth of field"
+            ],
+            [
+              "Чёткость",
+              "sharp focus"
+            ],
+            [
+              "Размытый фон",
+              "blurred background"
+            ],
+            [
+              "Чёткое лицо",
+              "sharp focus on face"
+            ],
+            [
+              "Детальные глаза",
+              "detailed eyes"
+            ],
+            [
+              "Детальные волосы",
+              "detailed hair"
+            ],
+            [
+              "Подповерхностное рассеивание",
+              "subsurface scattering"
+            ]
+          ],
+          "selected": "depth of field",
+          "enabled": false,
+          "weight": null
+        },
+        {
+          "id": "id_mv9vq1bx_2o063ur",
+          "label": "Обработка",
+          "options": [
+            [
+              "Хроматическая аберрация",
+              "chromatic aberration"
+            ],
+            [
+              "Плёночное зерно",
+              "film grain"
+            ],
+            [
+              "Виньетка",
+              "vignette"
+            ],
+            [
+              "Цветокоррекция",
+              "color grading"
+            ],
+            [
+              "Высокий контраст",
+              "high contrast"
+            ],
+            [
+              "Аналоговое фото",
+              "analog photography"
+            ]
+          ],
+          "selected": "chromatic aberration",
+          "enabled": false,
+          "weight": null
+        }
+      ]
+    }
+  ]
+}
