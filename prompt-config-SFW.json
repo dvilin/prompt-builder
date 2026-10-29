@@ -643,6 +643,14 @@
             [
               "Заснеженная деревня",
               "snowy village"
+            ],
+            [
+              "Солнечный парк",
+              "sunny park"
+            ],
+            [
+              "Парковая дорожка среди цветов",
+              "garden path, flowering shrubs, leafy trees"
             ]
           ],
           "selected": "beach at sunset",
@@ -680,6 +688,10 @@
             [
               "Тусклый свет/Свечи",
               "dimly lit, candlelight, dark atmosphere"
+            ],
+            [
+              "Солнечный свет сквозь листву",
+              "soft sunlight filtering through leaves, dappled sunlight"
             ]
           ],
           "selected": "soft lighting",
@@ -876,6 +888,10 @@
             [
               "Ледяные голубые",
               "ice blue eyes"
+            ],
+            [
+              "Бирюзовые глаза",
+              "teal eyes"
             ]
           ],
           "selected": "brown eyes",
@@ -953,6 +969,10 @@
             [
               "Зелёные",
               "green hair"
+            ],
+            [
+              "Бирюзовые волосы (Мику)",
+              "vivid turquoise hair"
             ]
           ],
           "selected": "red hair",
@@ -1148,6 +1168,10 @@
             [
               "Прищур",
               "squinting eyes"
+            ],
+            [
+              "Мягкая улыбка",
+              "gentle smile"
             ]
           ],
           "selected": "happy",
@@ -1269,6 +1293,10 @@
             [
               "Дреды",
               "dreadlocks"
+            ],
+            [
+              "Две длинные бирюзовые косы",
+              "long turquoise hair in two braids"
             ]
           ],
           "selected": "wavy hair",
@@ -1563,6 +1591,14 @@
             [
               "Вязаный свитер",
               "chunky knit sweater"
+            ],
+            [
+              "Белая кружевная блузка",
+              "white lace blouse"
+            ],
+            [
+              "Блузка с кружевным воротником и манжетами",
+              "white long-sleeved blouse, lace collar, lace cuffs"
             ]
           ],
           "selected": "white shirt",
@@ -1636,6 +1672,14 @@
             [
               "Плиссированная юбка-миди",
               "pleated midi skirt"
+            ],
+            [
+              "Чёрная плиссированная юбка выше колена",
+              "black pleated skirt, above-knee skirt"
+            ],
+            [
+              "Чёрная юбка с высокой талией и кружевным подолом",
+              "high-waisted black skirt, lace-trimmed hem"
             ]
           ],
           "selected": "jeans",
@@ -1665,6 +1709,10 @@
             [
               "Лоферы",
               "loafers"
+            ],
+            [
+              "Чёрные туфли с ремешком и бантиком",
+              "black mary jane shoes, small bows"
             ]
           ],
           "selected": "sneakers",
@@ -1798,6 +1846,27 @@
             ]
           ],
           "selected": "silk texture",
+          "enabled": false,
+          "weight": null
+        },
+        {
+          "id": "miku-hosiery",
+          "label": "Чулки и гольфы",
+          "options": [
+            [
+              "Белые ажурные чулки чуть выше колена",
+              "white patterned over-the-knee stockings"
+            ],
+            [
+              "Белые сетчатые чулки с кружевом и бантиками",
+              "white fine-mesh over-the-knee stockings, lace tops, small white bows"
+            ],
+            [
+              "Белые ажурные гольфы до колена",
+              "white lace knee-high socks"
+            ]
+          ],
+          "selected": "white fine-mesh over-the-knee stockings, lace tops, small white bows",
           "enabled": false,
           "weight": null
         }
@@ -3316,6 +3385,28 @@
           ],
           "selected": "chromatic aberration",
           "enabled": false,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "id": "miku-park-preset",
+      "label": "Готовый образ: Мику в парке",
+      "open": false,
+      "enabled": false,
+      "polarity": "positive",
+      "rows": [
+        {
+          "id": "miku-park-complete",
+          "label": "Мику в солнечном парке — полный промпт",
+          "options": [
+            [
+              "Готовый образ",
+              "photorealistic, solo, adult woman, vivid turquoise hair, long hair in two braids, teal eyes, black-framed glasses, gentle smile, looking at viewer, white long-sleeved lace blouse, lace collar, lace cuffs, high-waisted black pleated skirt, above-knee skirt, lace-trimmed hem, white fine-mesh over-the-knee stockings, lace tops, small white bows, black mary jane shoes, standing, relaxed natural pose, arms at sides, full body, sunny park, garden path, flowering shrubs, leafy trees, soft sunlight filtering through leaves, dappled sunlight, soft background bokeh, natural skin texture, detailed fabric, editorial fashion photography"
+            ]
+          ],
+          "selected": "photorealistic, solo, adult woman, vivid turquoise hair, long hair in two braids, teal eyes, black-framed glasses, gentle smile, looking at viewer, white long-sleeved lace blouse, lace collar, lace cuffs, high-waisted black pleated skirt, above-knee skirt, lace-trimmed hem, white fine-mesh over-the-knee stockings, lace tops, small white bows, black mary jane shoes, standing, relaxed natural pose, arms at sides, full body, sunny park, garden path, flowering shrubs, leafy trees, soft sunlight filtering through leaves, dappled sunlight, soft background bokeh, natural skin texture, detailed fabric, editorial fashion photography",
+          "enabled": true,
           "weight": null
         }
       ]
